@@ -1,0 +1,13 @@
+﻿@using Sitecore.Mvc
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    ViewBag.Title = "Main";
+}
+
+    <h2>@Html.Sitecore().Field("name")</h2>
+
+<div class="container">
+    @Html.Sitecore().Placeholder("main")
+</div>

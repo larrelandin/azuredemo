@@ -1,0 +1,7 @@
+﻿<Project>
+  <FolderSync SynchronizeProjectOutputFolderOnBuild="False">
+    <Folder SourceFolder="Views" DestinationFolder="Views\" Mode="Mirror" Pattern="" />
+    <Folder SourceFolder="C:\Users\lal\Documents\Visual Studio 2015\Projects\mvctest\mvctest\Scripts" DestinationFolder="Scripts\" Mode="Mirror" Pattern="" />
+    <Folder SourceFolder="C:\Users\lal\Documents\Visual Studio 2015\Projects\mvctest\mvctest\Content" DestinationFolder="Content\" Mode="Mirror" Pattern="" />
+  </FolderSync>
+</Project>
