@@ -37,7 +37,7 @@
 ### Poduct Description Rendering ###
 * Create View "ProductDescription"
 * Register Sitecore View Rendering
-* Add to Standard Values for "Product"
+* Add to Standard Values for "Product" placeholder "Main"
 * Show change on all pages
 * Add placeholder setting for "main" placeholder
 * Add additional components on one page, explain layout deltas
