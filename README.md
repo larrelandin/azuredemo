@@ -14,6 +14,7 @@
 * Show Bootstrap
 * Solution structure
 * Nuget
+* Sitecore Rocks
 
 ### Create scaffolding ###
 * Create view "Main.cshtml" under "Shared", publish solution to Sitecore
