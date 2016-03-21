@@ -41,3 +41,7 @@
 * Create model "NavigationItem" {Title, Url, (ActiveItem)}
 * Create controller "NavigationMenuController"
 * Explain the Sitecore API, examples
+* Code to get items using Linq
+* Create View
+* Create a Controller Rendering {NavigationMenu, Index}
+* Add rendering to "_Layout.cshtml"
