@@ -20,8 +20,9 @@ namespace mvctest.Controllers
                 .Where(i => i.Template.Key == "product")
                 .Select(i => new NavigationItem
                 {
-                    Title = i["name"],
-                    Url = LinkManager.GetItemUrl(i)
+                    Title = i["title"],
+                    Url = LinkManager.GetItemUrl(i),
+                    ActiveItem = i.ID == contextItem.ID
                 })
                 .ToArray();
 

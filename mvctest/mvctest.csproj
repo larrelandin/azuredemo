@@ -277,7 +277,7 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\Main.cshtml" />
-    <Content Include="Views\Product\Product.cshtml" />
+    <Content Include="Views\Product\ProductDescription.cshtml" />
     <Content Include="Views\NavigationMenu\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>

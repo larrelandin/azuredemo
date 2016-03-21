@@ -12,9 +12,10 @@
 </div>
 <div class="navbar-collapse collapse">
     <ul class="nav navbar-nav">
+        <li><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>
         @foreach (var item in Model)
-            {
-            <li><a href="@item.Url">@item.Title</a></li>
+        {
+            <li class="@(@item.ActiveItem ? "active" : null)"><a href="@item.Url">@item.Title</a></li>
         }
     </ul>
 </div>

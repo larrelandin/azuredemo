@@ -2,9 +2,9 @@
 version: 1
 id: {1DB42547-EBD5-40E9-90FC-A916DE0D15AA}
 database: master
-path: /sitecore/templates/User Defined/Product/Data/Name
+path: /sitecore/templates/User Defined/Product/Data/Title
 parent: {31C3B972-E533-4C15-A99F-70E442776057}
-name: Name
+name: Title
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
 templatekey: Template field
@@ -19,7 +19,7 @@ Single-Line Text
 ----version----
 language: en
 version: 1
-revision: ba1ea41d-7501-4bf4-8f12-f0184944c099
+revision: 21505e81-6d13-43ea-b19f-21677dd5c7d1
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ba1ea41d-7501-4bf4-8f12-f0184944c099
+21505e81-6d13-43ea-b19f-21677dd5c7d1
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160321T101916Z
+20160321T204306Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Site Server="mvctest" UserName="sitecore\admin" IsRemoteSitecore="False" />
   </PropertyGroup>
-  <File Include="Views\Product\Product.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+  <File Include="Views\Product\ProductDescription.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{572D7874-91C3-4EDB-AFAA-AF2C15C43442}</Item>
   </File>
 </Project>

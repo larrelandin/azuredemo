@@ -16,8 +16,8 @@ revision: e219359f-be14-4622-bd2d-f9e1101e6693
 
 ----field----
 field: {1DB42547-EBD5-40E9-90FC-A916DE0D15AA}
-name: Name
-key: name
+name: Title
+key: title
 content-length: 10
 
 Dishwasher

@@ -1,4 +1,5 @@
 ﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +8,7 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-
+    @Html.Sitecore().VisitorIdentification()
 </head>
 <body>
     @*<div class="navbar navbar-inverse navbar-fixed-top">
@@ -33,7 +34,7 @@
 
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
-        @Html.Sitecore().Rendering("/sitecore/layout/Renderings/NavigationMenu")
+        @Html.Sitecore().Rendering("/sitecore/layout/Renderings/Navigation Menu")
     </div>
 </div>
     <div class="container body-content">
