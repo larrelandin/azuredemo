@@ -2,9 +2,9 @@
 version: 1
 id: {3257AFB0-24B9-440E-8C6C-7D2EBF19769E}
 database: master
-path: /sitecore/layout/Layouts/_ViewStart
+path: /sitecore/layout/Layouts/Main
 parent: {75CC5CE4-8979-4008-9D3C-806477D57619}
-name: _ViewStart
+name: Main
 master: {00000000-0000-0000-0000-000000000000}
 template: {3A45A723-64EE-4919-9D41-02FD40FD1466}
 templatekey: Layout
@@ -19,7 +19,7 @@ content-length: 25
 ----version----
 language: en
 version: 1
-revision: d87bc182-d6ff-4a23-bac0-52db8c28d0c3
+revision: 11f37de4-b8ec-4289-a486-e6251fd51bb1
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-d87bc182-d6ff-4a23-bac0-52db8c28d0c3
+11f37de4-b8ec-4289-a486-e6251fd51bb1
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160321T101058Z
+20160321T203434Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
