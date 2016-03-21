@@ -17,7 +17,9 @@
 * Sitecore Rocks
 
 ### Create scaffolding ###
-* Create view "Main.cshtml" under "Shared", publish solution to Sitecore
+* Create view "Main.cshtml" based on "Sitecore/MVC/Sitecore View Layout"  under "Shared"
+* Move title and VisitorIdentification to "_Layout.cshtml"
+* Publish solution to Sitecore
 * Change layout for "home" and show page
 * Add H1 "Title" to Main
 * Add placeholder "main"
