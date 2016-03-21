@@ -1,11 +1,11 @@
 ﻿@using Sitecore.Mvc
-
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
 @{
-    ViewBag.Title = "Index";
-}
 
+}
 <div class="col-md-4">
     <h2>@Html.Sitecore().Field("title")</h2>
     <p>@Html.Sitecore().Field("description")</p>
-    <div>@Html.Sitecore().Field("image", new { mw = 300 })</div>
+    <span>@Html.Sitecore().Field("image", new {mw = 300})</span>
 </div>

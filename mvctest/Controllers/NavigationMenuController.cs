@@ -13,18 +13,17 @@ namespace mvctest.Controllers
         // GET: NavigationMenu
         public ActionResult Index()
         {
-            var home = Sitecore.Context.Database.GetItem(Sitecore.Context.Site.StartPath);
-            var contextItem = Sitecore.Context.Item;
+            var currentItem = Sitecore.Context.Item;
+            var homeItem = Sitecore.Context.Database.GetItem(Sitecore.Context.Site.StartPath);
 
-            var menuItems = home.Children
+            var menuItems = homeItem.Children
                 .Where(i => i.Template.Key == "product")
                 .Select(i => new NavigationItem
                 {
                     Title = i["title"],
                     Url = LinkManager.GetItemUrl(i),
-                    ActiveItem = i.ID == contextItem.ID
-                })
-                .ToArray();
+                    ActiveItem = i.ID == currentItem.ID
+                }).ToArray();
 
             return View(menuItems);
         }
