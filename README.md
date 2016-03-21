@@ -1,29 +1,13 @@
-# README #
+# MVC Developer Demo #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+* Built for Sitecore 8.1 rev 160302
 
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+### Demo steps ###
+* Show Sitecore standard features in empty Sitecore 
+* Open Visual Studio, explain separation of code and platform
+* Create main layout, publish solution to Sitecore
+* Change layout for "home"
+* Add H1 "Title" to "main.cshtml"
+* Create template "Product" with "Title", "Description" and "Image"
+* Create standard values
+* Set layout for "product"
