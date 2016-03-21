@@ -40,8 +40,11 @@
 * Register Sitecore View Rendering
 * Add to Standard Values for "Product" placeholder "Main"
 * Show change on all pages
+
+### Build for Editors ###
 * Add placeholder setting for "main" placeholder
-* Add additional components on one page, explain layout deltas
+* Add Datasource location and datasource template to "Product Description"
+* Add additional components on home page, explain layout deltas
 
 ### Add navigation ###
 * Explain difference between View renderings and Controller renderings
