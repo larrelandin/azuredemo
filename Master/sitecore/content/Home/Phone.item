@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {C4CFA1B9-9048-43B8-BE6E-AB31B6F939E5}
+database: master
+path: /sitecore/content/Home/Phone
+parent: {110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+name: Phone
+master: {00000000-0000-0000-0000-000000000000}
+template: {9CB9FA07-7DC3-46D3-9EBB-10EC8BE3851D}
+templatekey: Product
+
+----version----
+language: en
+version: 1
+revision: d5909e47-64c8-432f-9fce-9582efc51607
+
+----field----
+field: {1DB42547-EBD5-40E9-90FC-A916DE0D15AA}
+name: Name
+key: name
+content-length: 5
+
+Phone
+----field----
+field: {08E91633-3872-4496-838E-80F86F42E6D7}
+name: Image
+key: image
+content-length: 211
+
+<image mediapath="/Default Website/sc_logo" src="~/media/Default Website/sc_logo" height="" mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160321T103109Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d5909e47-64c8-432f-9fce-9582efc51607
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160321T105634Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

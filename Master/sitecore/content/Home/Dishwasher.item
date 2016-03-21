@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {41F9B767-E07E-4EA4-AB83-EEE321E9F003}
+database: master
+path: /sitecore/content/Home/Dishwasher
+parent: {110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+name: Dishwasher
+master: {00000000-0000-0000-0000-000000000000}
+template: {9CB9FA07-7DC3-46D3-9EBB-10EC8BE3851D}
+templatekey: Product
+
+----version----
+language: en
+version: 1
+revision: e219359f-be14-4622-bd2d-f9e1101e6693
+
+----field----
+field: {1DB42547-EBD5-40E9-90FC-A916DE0D15AA}
+name: Name
+key: name
+content-length: 10
+
+Dishwasher
+----field----
+field: {08E91633-3872-4496-838E-80F86F42E6D7}
+name: Image
+key: image
+content-length: 218
+
+<image mediapath="/Default Website/sc_logo" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Default Website/sc_logo" mediaid="{094AED03-02E7-4868-80CB-19926661FB77}" ></image>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160321T103109Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e219359f-be14-4622-bd2d-f9e1101e6693
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160321T105544Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
