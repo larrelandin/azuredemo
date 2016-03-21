@@ -21,9 +21,6 @@
 * Move title and VisitorIdentification to "_Layout.cshtml"
 * Publish solution to Sitecore
 * Change layout for "home" and show page
-* Add H1 "Title" to Main
-* Add placeholder "main"
-* Show updated page
 
 ### Product template ###
 * Create template "Product" with "Title", "Description" and "Image"
