@@ -21,7 +21,7 @@
 * Show Bootstrap
 * Solution structure
 * Nuget
-* Sitecore Rocks
+* Sitecore Rocks _connect solution with Sitecore_
 
 ### Create scaffolding ###
 * Create view "Main.cshtml" based on "Sitecore/MVC/Sitecore View Layout"  under "Shared"
