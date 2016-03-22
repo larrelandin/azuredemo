@@ -5,7 +5,8 @@
 ### Preparations ###
 * Install empty Sitecore
 * Clone solution from git
-* Remove all custom code that you want to demo
+* Remove all custom code that you want to demo from VS
+* Set up virtual folders in IIS {Views, Scripts, Content}
 * Load icons in rocks once
 * Open Experience Editor once
 
