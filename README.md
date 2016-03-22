@@ -3,8 +3,8 @@
 * Built for Sitecore 8.1 rev 160302
 
 ### Preparations ###
+* Install empty Sitecore
 * Clone solution from git
-* Make sure publish works
 * Remove all custom code that you want to demo
 * Load icons in rocks once
 * Open Experience Editor once
