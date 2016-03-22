@@ -55,3 +55,7 @@
 * Create View {Index, List, NavigationItem}
 * Create a Controller Rendering {NavigationMenu, Index}
 * Add rendering to "_Layout.cshtml"
+
+### Finalizing ###
+* Explain that all interactions has been registered into xDB with no work to us.
+* Talk about continous integration
