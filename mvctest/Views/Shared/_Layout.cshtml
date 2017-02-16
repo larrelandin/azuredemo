@@ -7,19 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@Html.Sitecore().Field("title", new { DisableWebEdit = true })</title>
     @Html.Sitecore().VisitorIdentification()
-    @Styles.Render("~/Content/css")
+    @Styles.Render("~/bundles/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
-                @Html.Sitecore().Rendering("/sitecore/layout/Renderings/Navigation Menu")
+                @Html.Sitecore().Rendering("/sitecore/layout/Renderings/Demo/NavigationMenu")
             </div>
         </div>
-<div class="container body-content">
     @RenderBody()
-    <hr/>
-</div>
 <div class="modal-footer">
     <footer>
         <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>

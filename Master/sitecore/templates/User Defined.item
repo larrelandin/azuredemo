@@ -8,6 +8,7 @@ name: User Defined
 master: {00000000-0000-0000-0000-000000000000}
 template: {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}
 templatekey: Template Folder
+created: 20160729T132117:636053952770000000
 
 ----field----
 field: {D85DB4EC-FF89-4F9C-9E7C-A9E0654797FC}
@@ -33,7 +34,7 @@ ar|sitecore\Sitecore Client Maintaining|pe|+item:create|+item:delete|+item:publi
 ----version----
 language: da
 version: 1
-revision: f45ee708-dd94-4022-845f-9bf1952d96ba
+revision: bcfbca29-b793-4559-96db-c9ad636ea03a
 
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
@@ -55,7 +56,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160302T162617Z
+20160729T133417Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -69,14 +70,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f45ee708-dd94-4022-845f-9bf1952d96ba
+bcfbca29-b793-4559-96db-c9ad636ea03a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160302T162617Z
+20160729T133417Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -87,7 +88,7 @@ sitecore\admin
 ----version----
 language: de-DE
 version: 1
-revision: e1339839-ef50-418a-ac48-264b4df817de
+revision: a888ed01-6b98-40ad-9833-82e67bd0e17c
 
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
@@ -109,7 +110,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160302T162742Z
+20160729T133548Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -123,14 +124,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-e1339839-ef50-418a-ac48-264b4df817de
+a888ed01-6b98-40ad-9833-82e67bd0e17c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160302T162742Z
+20160729T133548Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -143,13 +144,6 @@ language: en
 version: 1
 revision: 720d6afb-3a5e-4465-abf5-46f97beccf7e
 
-----field----
-field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
-name: __Owner
-key: __owner
-content-length: 14
-
-sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -188,7 +182,7 @@ sitecore\admin
 ----version----
 language: ja-JP
 version: 1
-revision: fb632206-3b9c-46b6-b11b-246a21d54136
+revision: 94b2c6fb-a7a7-4592-89b0-0706da8ce051
 
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
@@ -210,7 +204,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160302T162905Z
+20160729T133718Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -224,14 +218,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-fb632206-3b9c-46b6-b11b-246a21d54136
+94b2c6fb-a7a7-4592-89b0-0706da8ce051
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160302T162905Z
+20160729T133718Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

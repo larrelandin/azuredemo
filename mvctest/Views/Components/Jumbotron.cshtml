@@ -1,0 +1,10 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+
+<div class="jumbotron" style="background-color: #6f5499; color: #fff;">
+    <span>
+        <h1>@Html.Sitecore().Field("title")</h1>
+        <p>@Html.Sitecore().Field("text")</p>
+    </span>
+</div>

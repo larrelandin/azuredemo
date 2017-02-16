@@ -1,8 +1,26 @@
 ﻿<Project>
   <PropertyGroup>
-    <Site Server="mvctest" UserName="sitecore\admin" IsRemoteSitecore="False" />
+    <Site Server="dev.demo" UserName="sitecore\admin" IsRemoteSitecore="False" />
   </PropertyGroup>
-  <File Include="Views\Product\ProductDescription.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+  <File Include="Views\Components\TitleTextImage.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{572D7874-91C3-4EDB-AFAA-AF2C15C43442}</Item>
+  </File>
+  <File Include="Views\Shared\_Layout.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{246681A2-04C4-41A7-8A30-B064AC6C10AE}</Item>
+  </File>
+  <File Include="/Views/Shared/Main2.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{C1D7EFC7-934A-4E1E-91BB-48883368AFA1}</Item>
+  </File>
+  <File Include="Views\Shared\Main.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{8F46D566-7F13-461C-B0B5-DC88816A121A}</Item>
+  </File>
+  <File Include="/Views/Shared/Main.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{085F6B44-7287-430E-8BF9-328368A19631}</Item>
+  </File>
+  <File Include="Views\NavigationMenu\Index.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{74C0637F-1BDF-45D3-A78C-30764957B82D}</Item>
+  </File>
+  <File Include="Views\Components\Jumbotron.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{BB6F7B88-081E-4A61-BEBF-669825F22EA4}</Item>
   </File>
 </Project>

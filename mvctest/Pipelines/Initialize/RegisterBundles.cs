@@ -1,12 +1,18 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
+using Sitecore;
+using Sitecore.Pipelines;
 
-namespace mvctest
+namespace mvctest.Pipelines.Initialize
 {
-    public class BundleConfig
+    public class RegisterBundles
     {
-        // For more information on bundling, visit http://go.microsoft.com/fwlink/?LinkId=301862
-        public static void RegisterBundles(BundleCollection bundles)
+        [UsedImplicitly]
+        public virtual void Process(PipelineArgs args)
+        {
+            RegisterScriptBundles(BundleTable.Bundles);
+        }
+
+        private void RegisterScriptBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
@@ -23,7 +29,7 @@ namespace mvctest
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
+            bundles.Add(new StyleBundle("~/bundles/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
         }

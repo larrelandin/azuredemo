@@ -1,0 +1,14 @@
+﻿---
+ID: "8df78602-d25e-4c05-81da-7eb3fb302082"
+Parent: "4458fb55-af72-4518-a8b8-0b77572b4ffa"
+Template: "4458fb55-af72-4518-a8b8-0b77572b4ffa"
+Path: /sitecore/templates/Demo/Product Page/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170206T154539Z

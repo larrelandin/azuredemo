@@ -3,11 +3,11 @@
 @using Sitecore.Mvc.Presentation
 @model RenderingModel
 @{
-  Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-  
-    <h1>@Html.Sitecore().Field("title")</h1>
+@Html.Sitecore().Placeholder("top_banner")
+<div class="container body-content">
     <div>
-      @Html.Sitecore().Placeholder("main")
+        @Html.Sitecore().Placeholder("main")
     </div>
+</div>

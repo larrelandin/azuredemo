@@ -40,6 +40,18 @@
     <OutputPath>.\bin\Release\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug 8.2' ">
+    <DebugSymbols>true</DebugSymbols>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\Master_Debug.xml</ValidationSettingsFilePath>
+    <SitecoreWebUrl>http://mvcdemo</SitecoreWebUrl>
+    <InstallSitecoreConnector>True</InstallSitecoreConnector>
+    <DisableFileDeployment>True</DisableFileDeployment>
+    <SitecoreDeployFolder>D:\Sites\mvcdemo\Website</SitecoreDeployFolder>
+    <SitecoreAccessGuid>22c34c56-83a7-4162-b3fd-95aebad36b02</SitecoreAccessGuid>
+    <OutputPath>.\bin\Debug 8.2\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <AssemblyAttributes Include="AssemblyFileVersion">
       <Value>$(AssemblyFileVersion)</Value>

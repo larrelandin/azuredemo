@@ -1,0 +1,40 @@
+﻿---
+ID: "0b4ab502-5686-4f71-88f8-4c7eee1a5e36"
+Parent: "dc40c189-0a6a-47a9-81d7-f1721d10c933"
+Template: "dc40c189-0a6a-47a9-81d7-f1721d10c933"
+Path: /sitecore/templates/Demo/_Base Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{8F46D566-7F13-461C-B0B5-DC88816A121A}">
+        <r
+          id="{BB6F7B88-081E-4A61-BEBF-669825F22EA4}"
+          ph="top_banner"
+          uid="{5C3FB6F3-7D5C-4B37-947D-F3F756C8BEA9}" />
+        <r
+          id="{BB343216-24FE-459B-8EFE-9D8361150F27}"
+          ph="main"
+          uid="{295EBA59-9260-42B0-B624-3C56D601CDCF}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170206T154437Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "881eb0d8-07c1-4547-bd90-25b97d857e7d"
+      Hint: Title
+      Value: $name
