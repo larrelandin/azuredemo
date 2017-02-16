@@ -141,6 +141,10 @@
       <HintPath>..\packages\Sitecore.Analytics.Processing.8.2.161221\lib\NET452\Sitecore.Analytics.Processing.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Sitecore.Helper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Sitecore.Helper\bin\Debug\Sitecore.Helper.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Kernel, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore.Kernel.8.2.161221\lib\NET452\Sitecore.Kernel.dll</HintPath>
       <Private>True</Private>
@@ -449,12 +453,6 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\Sitecore.Helper\Sitecore.Helper.csproj">
-      <Project>{a4821176-2b7f-4c59-b946-c6dd5fca4cbe}</Project>
-      <Name>Sitecore.Helper</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -5,8 +5,6 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvctest", "mvctest\mvctest.csproj", "{D77AB959-C20A-468D-8A8C-4631666F4DDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Helper", "..\Sitecore.Helper\Sitecore.Helper.csproj", "{A4821176-2B7F-4C59-B946-C6DD5FCA4CBE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Local Debug 8.2|Any CPU = Local Debug 8.2|Any CPU
@@ -17,10 +15,6 @@ Global
 		{D77AB959-C20A-468D-8A8C-4631666F4DDC}.Local Debug 8.2|Any CPU.Build.0 = Local Debug 8.2|Any CPU
 		{D77AB959-C20A-468D-8A8C-4631666F4DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D77AB959-C20A-468D-8A8C-4631666F4DDC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A4821176-2B7F-4C59-B946-C6DD5FCA4CBE}.Local Debug 8.2|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4821176-2B7F-4C59-B946-C6DD5FCA4CBE}.Local Debug 8.2|Any CPU.Build.0 = Debug|Any CPU
-		{A4821176-2B7F-4C59-B946-C6DD5FCA4CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4821176-2B7F-4C59-B946-C6DD5FCA4CBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
