@@ -23,4 +23,7 @@
   <File Include="Views\Components\Jumbotron.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{BB6F7B88-081E-4A61-BEBF-669825F22EA4}</Item>
   </File>
+  <File Include="Controllers\ChildListController.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{8EB88759-0855-42CF-BCC4-DEE227FFC23C}</Item>
+  </File>
 </Project>

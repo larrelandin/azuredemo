@@ -27,7 +27,7 @@
     </NuGetPackageImportStamp>
     <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release.DEV.CM|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\</OutputPath>
@@ -119,6 +119,14 @@
     </Reference>
     <Reference Include="Sitecore.Analytics.Processing, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore.Analytics.Processing.8.2.161221\lib\NET452\Sitecore.Analytics.Processing.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.ContentSearch, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.ContentSearch.8.2.161221\lib\NET452\Sitecore.ContentSearch.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.ContentSearch.Linq, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.ContentSearch.Linq.8.2.161221\lib\NET452\Sitecore.ContentSearch.Linq.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Helper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -312,6 +320,9 @@
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Controllers\ChildListController.cs" />
+    <Compile Include="Models\PageDetails.cs" />
+    <Compile Include="Models\PagesList.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NavigationMenuController.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -334,7 +345,6 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="App_Config\Include\LiveMode.config" />
     <Content Include="App_Config\Include\Rainbow.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.zSharedSecret.config.example" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.UI.config" />
@@ -354,6 +364,7 @@
     <Content Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
     <Content Include="App_Config\Include\Unicorn.Configs.Default.config">
       <SubType>Designer</SubType>
+      <TransformOnBuild>true</TransformOnBuild>
     </Content>
     <Content Include="App_Config\Include\Bundles.config" />
     <None Include="App_Config\Include\Unicorn\Unicorn.Local Debug 8.2.config">
@@ -361,11 +372,12 @@
       <IsTransformFile>True</IsTransformFile>
       <SubType>Designer</SubType>
     </None>
-    <None Include="App_Config\Include\Unicorn\Unicorn.Release.config">
+    <Content Include="App_Config\Include\z.Local.Dev.Settings.config" />
+    <None Include="App_Config\Include\Unicorn\Unicorn.Release.DEV.CM.config">
       <DependentUpon>Unicorn.config</DependentUpon>
       <IsTransformFile>True</IsTransformFile>
     </None>
-    <Content Include="App_Config\Include\z.Local.Dev.Settings.config" />
+    <None Include="Properties\PublishProfiles\lal-azure-dev-demo-94b1-cd - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\Local deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -414,6 +426,7 @@
     <Content Include="Views\Shared\Main.cshtml" />
     <Content Include="Views\Components\TitleTextImage.cshtml" />
     <Content Include="Views\Components\Jumbotron.cshtml" />
+    <Content Include="Views\ChildList\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
