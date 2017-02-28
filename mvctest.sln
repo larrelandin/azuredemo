@@ -8,13 +8,13 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Local Debug 8.2|Any CPU = Local Debug 8.2|Any CPU
-		Release|Any CPU = Release|Any CPU
+		ReleaseAzureCM|Any CPU = ReleaseAzureCM|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D77AB959-C20A-468D-8A8C-4631666F4DDC}.Local Debug 8.2|Any CPU.ActiveCfg = Local Debug 8.2|Any CPU
 		{D77AB959-C20A-468D-8A8C-4631666F4DDC}.Local Debug 8.2|Any CPU.Build.0 = Local Debug 8.2|Any CPU
-		{D77AB959-C20A-468D-8A8C-4631666F4DDC}.Release|Any CPU.ActiveCfg = Release.DEV.CM|Any CPU
-		{D77AB959-C20A-468D-8A8C-4631666F4DDC}.Release|Any CPU.Build.0 = Release.DEV.CM|Any CPU
+		{D77AB959-C20A-468D-8A8C-4631666F4DDC}.ReleaseAzureCM|Any CPU.ActiveCfg = ReleaseAzureCM|Any CPU
+		{D77AB959-C20A-468D-8A8C-4631666F4DDC}.ReleaseAzureCM|Any CPU.Build.0 = ReleaseAzureCM|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -27,7 +27,7 @@
     </NuGetPackageImportStamp>
     <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release.DEV.CM|AnyCPU' ">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseAzureCM|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\</OutputPath>
@@ -373,7 +373,7 @@
       <SubType>Designer</SubType>
     </None>
     <Content Include="App_Config\Include\z.Local.Dev.Settings.config" />
-    <None Include="App_Config\Include\Unicorn\Unicorn.Release.DEV.CM.config">
+    <None Include="App_Config\Include\Unicorn\Unicorn.ReleaseAzureCM.config">
       <DependentUpon>Unicorn.config</DependentUpon>
       <IsTransformFile>True</IsTransformFile>
     </None>
