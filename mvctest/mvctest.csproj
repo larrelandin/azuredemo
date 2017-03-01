@@ -382,8 +382,10 @@
       <DependentUpon>Unicorn.config</DependentUpon>
       <IsTransformFile>True</IsTransformFile>
     </None>
+    <None Include="Properties\PublishProfiles\intlalsitecoreusergroupgbg-b8a6-cm - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\lal-azure-dev-demo-94b1-cd - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\Local deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\Test.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
