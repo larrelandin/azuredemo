@@ -367,6 +367,11 @@
       <TransformOnBuild>true</TransformOnBuild>
     </Content>
     <Content Include="App_Config\Include\Bundles.config" />
+    <None Include="App_Config\Include\Unicorn.Configs.Default.lal-azure-dev-demo-94b1-cd - Web Deploy.config">
+      <DependentUpon>Unicorn.Configs.Default.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+      <SubType>Designer</SubType>
+    </None>
     <None Include="App_Config\Include\Unicorn\Unicorn.Local Debug 8.2.config">
       <DependentUpon>Unicorn.config</DependentUpon>
       <IsTransformFile>True</IsTransformFile>

@@ -188,15 +188,17 @@ Languages:
         sitecore\admin
     - ID: "881eb0d8-07c1-4547-bd90-25b97d857e7d"
       Hint: Title
-      Value: Sitecore Experience Platform
+      Value: Honey Bees
+    - ID: "8a5222d8-326f-43db-b65f-9db65776ddd1"
+      Hint: Image
+      Value: |
+        <image mediapath="/Honey bee logo" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Honey bee logo" mediaid="{2116AC43-BE3F-47D2-834D-A086707BE07E}" />
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 
     - ID: "f2e034a3-be09-4c24-adf3-83329e1745ba"
       Hint: Text
-      Value: |
-        <p style="line-height: 22px;">From a single connected platform that also integrates with other customer-facing platforms, to a single view of the customer in a big data marketing repository, to completely eliminating much of the complexity that has previously held marketers back, the latest version of Sitecore makes customer experience highly achievable. Learn how the latest version of Sitecore gives marketers the complete data, integrated tools, and automation capabilities to engage customers throughout an iterative lifecycle &ndash; the technology foundation absolutely necessary to win customers for life.</p>
-        <p>For further information, please go to the <a href="https://doc.sitecore.net/" target="_blank" title="Sitecore Documentation site">Sitecore Documentation site</a></p>
+      Value: A honey bee is any bee member of the genus Apis, primarily distinguished by the production and storage of honey and the construction of perennial, colonial nests from wax. Currently, only seven species of honey bee are recognized, with a total of 44 subspecies, though historically, from six to eleven species have been recognized. The best known honey bee is the Western honey bee which has been domesticated for honey production and crop pollination. Honey bees represent only a small fraction of the roughly 20,000 known species of bees. Some other types of related bees produce and store honey, including the stingless honey bees, but only members of the genus Apis are true honey bees.
 - Language: "ja-JP"
   Fields:
   - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"

@@ -1,0 +1,25 @@
+﻿---
+ID: "9875f65c-1a42-4429-b0e6-b458918f5b3a"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "8c9656b3-551e-4e79-925c-d2179d51b75a"
+Path: /sitecore/content/Home/Worker
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170208T101213Z
+    - ID: "881eb0d8-07c1-4547-bd90-25b97d857e7d"
+      Hint: Title
+      Value: Workers
+    - ID: "8a5222d8-326f-43db-b65f-9db65776ddd1"
+      Hint: Image
+      Value: |
+        <image mediapath="/Honey bee logo" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Honey bee logo" mediaid="{2116AC43-BE3F-47D2-834D-A086707BE07E}" />
+    - ID: "f2e034a3-be09-4c24-adf3-83329e1745ba"
+      Hint: Text
+      Value: |
+        Workers have two sets of chromosomes. They are produced from an egg that the queen has selectively fertilized from stored sperm. Workers typically develop in 21 days. A typical colony may contain as many as 60,000 worker bees. Workers exhibit a wider range of behaviors than either queens or drones. Their duties change upon the age of the bee in the following order (beginning with cleaning out their own cell after eating through their capped brood cell): feed brood, receive nectar, clean hive, guard duty, and foraging. Some workers engage in other specialized behaviors, such as "undertaking" (removing corpses of their nestmates from inside the hive).
