@@ -8,7 +8,6 @@ using Sitecore.Mvc.Presentation;
 using Sitecore.Data.Items;
 using Sitecore.ContentSearch;
 using Sitecore.ContentSearch.Linq;
-using Sitecore.ContentSearch.SearchTypes;
 
 namespace mvctest.Controllers
 {
@@ -18,23 +17,29 @@ namespace mvctest.Controllers
         public ActionResult Index()
         {
             Item contextItem = RenderingContext.Current.ContextItem;
-            var databaseName = contextItem.Database.Name.ToLower();
-            var indexName = string.Format("sitecore_{0}_index", databaseName);
-            var index = ContentSearchManager.GetIndex(indexName);
-
-            var model = new PagesList();
-            using (var context = index.CreateSearchContext())
+            var database = contextItem.Database;
+            var indexName = string.Format("sitecore_{0}_index", database);
+            try
             {
-                var results = context.GetQueryable<PageDetails>()
-                    .Where(i => i.Paths.Contains(contextItem.ID))
-                    .Where(i => i.Language == contextItem.Language.Name)
-                    .GetResults();
+                var index = ContentSearchManager.GetIndex(indexName);
 
-                model.Pages = results.Hits.Select(h => h.Document).ToList();
-                model.TotalResultCount = results.TotalSearchResults;
+                var model = new PagesList();
+                using (var context = index.CreateSearchContext())
+                {
+                    var results = context.GetQueryable<PageDetails>()
+                        .Where(i => i.Paths.Contains(contextItem.ID))
+                        .Where(i => i.Language == contextItem.Language.Name)
+                        .GetResults();
+
+                    model.Pages = results.Hits.Select(h => h.Document).ToList();
+                    model.TotalResultCount = results.TotalSearchResults;
+                }
+                return View(model);
             }
-
-            return View(model);
+            catch (Exception e)
+            {
+                return new EmptyResult();
+            }
         }
     }
 }
