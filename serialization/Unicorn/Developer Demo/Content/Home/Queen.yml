@@ -1,0 +1,24 @@
+﻿---
+ID: "3ef1af61-6cd7-4882-a586-5c94d4bee606"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "8c9656b3-551e-4e79-925c-d2179d51b75a"
+Path: /sitecore/content/Home/Queen
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170208T101213Z
+    - ID: "881eb0d8-07c1-4547-bd90-25b97d857e7d"
+      Hint: Title
+      Value: Queen
+    - ID: "8a5222d8-326f-43db-b65f-9db65776ddd1"
+      Hint: Image
+      Value: |
+        <image mediapath="/queen-bee" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/queen-bee" mediaid="{63171902-2CBC-48B0-A4E1-8D0A78A14B8B}" />
+    - ID: "f2e034a3-be09-4c24-adf3-83329e1745ba"
+      Hint: Text
+      Value: Queen honey bees are created at the decision of the worker bees by feeding a larva only royal jelly throughout its development, rather than switching from royal jelly to a mixture of honey and pollen known as bee bread once the larva passes three days of age. Queens are produced in oversized cells and develop in only 16 days; they differ in morphology and behavior from worker bees. In addition to the greater size of the queen, she has a functional set of ovaries, and a spermatheca, which stores and maintains sperm after she has mated. Once mated, queens may lay up to 2,000 eggs per day. They produce a variety of pheromones that regulate behavior of workers, and helps swarms track the queen's location during the migratory phase.

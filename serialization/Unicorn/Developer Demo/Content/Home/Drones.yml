@@ -1,0 +1,24 @@
+﻿---
+ID: "91ea86ce-2b89-4a29-9233-68e9c590e1c5"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "8c9656b3-551e-4e79-925c-d2179d51b75a"
+Path: /sitecore/content/Home/Drones
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170208T101213Z
+    - ID: "881eb0d8-07c1-4547-bd90-25b97d857e7d"
+      Hint: Title
+      Value: Drones
+    - ID: "8a5222d8-326f-43db-b65f-9db65776ddd1"
+      Hint: Image
+      Value: |
+        <image mediapath="/types-of-bee-drone-bee" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/types-of-bee-drone-bee" mediaid="{AB57556F-AB98-4973-A16D-D1C1BB5B9BE3}" />
+    - ID: "f2e034a3-be09-4c24-adf3-83329e1745ba"
+      Hint: Text
+      Value: "Males, or drones, are typically haploid, having only one set of chromosomes. They are produced by the queen if she chooses not to fertilize an egg; or by an unfertilized laying worker. Diploid drones may be produced if an egg is fertilized but is homozygous for the sex-determination allele. Drones take 24 days to develop and may be produced from summer through autumn. Drones have large eyes used to locate queens during mating flights. They do not have a stinger."
