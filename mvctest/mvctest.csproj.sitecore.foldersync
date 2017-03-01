@@ -1,5 +1,0 @@
-﻿<Project>
-  <FolderSync SynchronizeProjectOutputFolderOnBuild="False">
-    <Folder SourceFolder="Views\" DestinationFolder="Views\" Mode="Copy" Pattern="*.*" />
-  </FolderSync>
-</Project>

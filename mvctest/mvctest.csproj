@@ -367,10 +367,13 @@
       <TransformOnBuild>true</TransformOnBuild>
     </Content>
     <Content Include="App_Config\Include\Bundles.config" />
-    <None Include="App_Config\Include\Unicorn.Configs.Default.lal-azure-dev-demo-94b1-cd - Web Deploy.config">
+    <None Include="App_Config\Include\Unicorn.Configs.Default.Local Debug 8.2.config">
       <DependentUpon>Unicorn.Configs.Default.config</DependentUpon>
       <IsTransformFile>True</IsTransformFile>
-      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_Config\Include\Unicorn.Configs.Default.ReleaseAzureCM.config">
+      <DependentUpon>Unicorn.Configs.Default.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
     </None>
     <None Include="App_Config\Include\Unicorn\Unicorn.Local Debug 8.2.config">
       <DependentUpon>Unicorn.config</DependentUpon>
@@ -443,7 +446,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
-    <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <PropertyGroup>

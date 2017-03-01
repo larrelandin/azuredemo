@@ -210,3 +210,6 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+/mvctest/Properties/PublishProfiles
+/mvctest/mvctest.csproj.sitecore.foldersync
+/mvctest/mvctest.csproj.sitecore
