@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoneyBees", "HoneyBees\HoneyBees.csproj", "{D77AB959-C20A-468D-8A8C-4631666F4DDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Local Debug 8.2|Any CPU = Local Debug 8.2|Any CPU
+		Release|Any CPU = Release|Any CPU
+		ReleaseAzureCD|Any CPU = ReleaseAzureCD|Any CPU
+		ReleaseAzureCM|Any CPU = ReleaseAzureCM|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D77AB959-C20A-468D-8A8C-4631666F4DDC}.Local Debug 8.2|Any CPU.ActiveCfg = Local Debug 8.2|Any CPU
+		{D77AB959-C20A-468D-8A8C-4631666F4DDC}.Local Debug 8.2|Any CPU.Build.0 = Local Debug 8.2|Any CPU
+		{D77AB959-C20A-468D-8A8C-4631666F4DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77AB959-C20A-468D-8A8C-4631666F4DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D77AB959-C20A-468D-8A8C-4631666F4DDC}.ReleaseAzureCD|Any CPU.ActiveCfg = ReleaseAzureCD|Any CPU
+		{D77AB959-C20A-468D-8A8C-4631666F4DDC}.ReleaseAzureCD|Any CPU.Build.0 = ReleaseAzureCD|Any CPU
+		{D77AB959-C20A-468D-8A8C-4631666F4DDC}.ReleaseAzureCM|Any CPU.ActiveCfg = ReleaseAzureCM|Any CPU
+		{D77AB959-C20A-468D-8A8C-4631666F4DDC}.ReleaseAzureCM|Any CPU.Build.0 = ReleaseAzureCM|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
