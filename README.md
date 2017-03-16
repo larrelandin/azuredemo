@@ -12,7 +12,7 @@ https://github.com/kamsar/Unicorn*
 ## Preparations
 First clone this repo to your local machine then upload it to your own favourite spot such as TFS, GitHub or BitBucket. You are going to do automatic builds from your online repo later on.
 
-Secondly, deploy a Sitecore environment in Azure, you can use the Azure marketplace for a standard installation or tweek some ARM-templates to fit your need. It is up to you but we will need a CM and CD environment deployed.
+Secondly, deploy a Sitecore environment in Azure, you can use the Azure marketplace for a standard installation or tweek some ARM-templates to fit your need. It is up to you but we will need a CM and CD environment deployed. *Beware that it can take quite a while for the provisioning to finish, if you start deploying to a machine before it is correctly provisioned, including installment of Sitecore, you will probably fail.*
 
 ## Configuring automatic build in Azure using Kudu
 In Azure, open your Web App for the CM-server, go to "Application settings" and add the following App Setting:
@@ -41,4 +41,5 @@ Use the Web Deploy features of Visual Studio to set up a deploy for your CD in t
 1. Automatic publish in Azure after deploy from repo.
 2. Automation script to warm up the newly deployed instance.
 3. Explore search indexes in Azure and have a working component.
-4. More honey bees.
+4. Unicorn 4 and better handling of configurations.
+5. More honey bees.
